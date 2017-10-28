@@ -10,6 +10,6 @@ describe("MyComponent", () => {
     // when
     const component = shallow(<MyComponent />);
     // then
-    expect(component.children().getElements()).toMatchSnapshot();
-});
+    expect(component.getElements()).toMatchSnapshot();
+  });
 });

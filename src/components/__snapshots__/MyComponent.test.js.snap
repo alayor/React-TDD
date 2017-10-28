@@ -3,7 +3,9 @@
 exports[`MyComponent should render initial layout 1`] = `
 Array [
   <div>
-      <input type=”text” />
+    <input
+      type="text"
+    />
   </div>,
 ]
 `;
