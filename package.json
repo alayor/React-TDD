@@ -1,0 +1,24 @@
+{
+  "name": "react-tdd",
+  "version": "1.0.0",
+  "description": "React TDD Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alayor/React-TDD.git"
+  },
+  "author": "Alonso A. Ortega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alayor/React-TDD/issues"
+  },
+  "homepage": "https://github.com/alayor/React-TDD#readme",
+  "dependencies": {
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "react": "^16.0.0"
+  }
+}
