@@ -18,7 +18,10 @@
   "jest": {
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
-    }
+    },
+    "setupFiles": [
+      "./src/setupTests.js"
+    ]
   },
   "homepage": "https://github.com/alayor/React-TDD#readme",
   "dependencies": {
